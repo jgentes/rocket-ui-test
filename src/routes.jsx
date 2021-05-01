@@ -9,7 +9,7 @@ const Routes = () => (
   <Router>
     <div>
       <Route exact path="/" component={Launches}/>
-      <Route path="/Launches" component={Launches}/>
+      <Route path="/Launches" component={Launches} />
     </div>
   </Router>
 );
